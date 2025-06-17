@@ -17,7 +17,7 @@
     display: contents;
   }
 
-  header .recipe-title {
+  main .recipe-title {
     font-size: 1rem;
   }
 
@@ -41,5 +41,16 @@
 
   .clearfix img {
     float: left;
+  }
+}
+
+@media screen and (min-width: 992px) {
+
+  .container {
+    width: 100%;
+  }
+
+  main .recipe-title {
+    font-size: 2rem;
   }
 }
