@@ -18,20 +18,21 @@
   }
 
   main .recipe-title {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .recipe-info .quick-notes ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
-    gap: 0px 29px;
+    gap: 0px 60px;
 
   }
 
   .btn {
-    padding: 10px 47px;
-    align-items: center;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: center;
     margin-bottom: 20px;
   }
 
@@ -59,5 +60,8 @@
     flex-direction: column;
   }
 
-
+  .recipe-card {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
