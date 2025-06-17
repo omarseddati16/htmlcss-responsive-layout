@@ -52,7 +52,7 @@
   }
 
   main .recipe-title {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
 
   .recipe-info .quick-notes ul {
@@ -72,5 +72,13 @@
 
   .social-networks .label {
     display: contents;
+
+  }
+
+  footer {
+    max-width: 1813px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
   }
 }
