@@ -1,1 +1,11 @@
 /* Soluzione qui */
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+
+  #topbar {
+    justify-content: flex-start;
+  }
+}
