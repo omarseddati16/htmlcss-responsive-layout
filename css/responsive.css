@@ -20,4 +20,12 @@
   header .recipe-title {
     font-size: 1.1rem;
   }
+
+  .recipe-info .quick-notes ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 0px 29px;
+
+  }
 }
