@@ -18,7 +18,7 @@
   }
 
   header .recipe-title {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   .recipe-info .quick-notes ul {
@@ -37,5 +37,9 @@
 
   .ads {
     display: contents;
+  }
+
+  .clearfix img {
+    float: left;
   }
 }
