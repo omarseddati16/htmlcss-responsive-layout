@@ -28,4 +28,10 @@
     gap: 0px 29px;
 
   }
+
+  .btn {
+    padding: 10px 47px;
+    align-items: center;
+    margin: 0px -5px;
+  }
 }
