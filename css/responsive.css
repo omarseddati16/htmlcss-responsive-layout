@@ -16,4 +16,8 @@
   header .recipe-title .recipe-origin {
     display: contents;
   }
+
+  header .recipe-title {
+    font-size: 1.1rem;
+  }
 }
