@@ -1,6 +1,6 @@
 /* Soluzione qui */
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .container {
     width: 100%;
   }
@@ -53,4 +53,11 @@
   main .recipe-title {
     font-size: 2rem;
   }
+
+  .recipe-info .quick-notes ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+
 }
