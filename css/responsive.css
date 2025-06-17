@@ -12,4 +12,8 @@
   main {
     padding: 50px;
   }
+
+  header .recipe-title .recipe-origin {
+    display: contents;
+  }
 }
